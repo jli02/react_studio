@@ -1,9 +1,95 @@
 /* Add styling for your page here */
 
 .App {
-
+  margin: 60px;
 }
 
-.BakeryItem {
-  
+.bakery-items {
+  display: flex;
+  width: 70vw;
+  flex-wrap: wrap;
+}
+
+.bakery-item {
+  position: relative;
+  background-color: rgb(111, 127, 143);
+  width: 350px;
+  height: 550px;
+  margin-bottom: 20px;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.food-image {
+  width: 350px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.bakery-and-cart {
+  display: flex;
+}
+
+button {
+  background-color: rgb(66, 76, 85);
+  color: white;
+  position: absolute;
+  bottom: 30px;
+  left: 240px;
+  width: 120px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: rgb(43, 51, 57);
+}
+
+.button-text {
+  font-family: "halcom", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 15px;
+}
+
+.title {
+  font-family: "halcom", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 50px;
+  color: rgb(50, 57, 66);
+}
+
+.header {
+  font-family: "halcom", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.body-text {
+  font-family: "halcom", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.price {
+  position: absolute;
+  bottom: 20px;
+}
+
+.cart {
+  position: fixed;
+  width: 25vw;
+  height: 100vw;
+  right: 0;
+  text-align: left;
+  padding: 30px;
+  background-color: rgb(171, 188, 201);
+  border-radius: 20px;
+  color: rgb(50, 57, 66);
 }
